@@ -5,13 +5,9 @@ Womanium Quantum Hackathon 2022
 ### Solution of Challenge: Green Qupermarket (Quantum Focus) by Deloitte
 
 1. The algorithm is based on Adiabatc Quantum Computation Model and uses Quantum Annealing to minimize the rate of CO2 emission. 
-
 The cost function is converted to QUBO (Quadratic Unconstrained Binary Optimization) form so that it can be implmented on D-Wave Systems to get real simulation results. 
-
 Binary quadratic variables are introduced in the cost function and quadratic penalty terms are added for each constraint on the system to make the whole cost function unconstrained. 
-
 After inputting the QUBO cost function and running the algorthim and its simulation, we get the minimum value of the cost function along with the schedule of electric vehicles and other qupermarket parameters to achieve that minimumm value. 
-
 
 2. This quantum solution can be run on D-Wave systems using a Python Code with Ocean SDK library.
 
